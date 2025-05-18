@@ -1,0 +1,8 @@
+[package]
+name = "test_prime_numbers"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+primal = "0.3.2"
+num_cpus = "1.16.0"
