@@ -2,6 +2,8 @@ use primal::is_prime;
 use std::time::Instant;
 
 const MAX_VALUE: u64 = 200_000_000;
+
+#[allow(dead_code)]
 const NUM_THREADS: usize = 10;
 
 fn main() {
