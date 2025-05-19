@@ -1,7 +1,7 @@
 use primal::is_prime;
 use std::time::Instant;
 
-const MAX_VALUE: u64 = 50_000_000;
+const MAX_VALUE: usize = 50_000_000;
 
 #[allow(dead_code)]
 const NUM_THREADS: usize = 10;
