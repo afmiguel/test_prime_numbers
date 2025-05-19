@@ -11,7 +11,7 @@ fn main() {
     let start = Instant::now();
     let mut count_primes = 0;
     for n in 0..MAX_VALUE{
-        if is_prime(n) {
+        if is_prime(n as u64) {
             count_primes += 1;
         }
     }
